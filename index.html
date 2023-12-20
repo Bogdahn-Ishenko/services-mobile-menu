@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Мобильное меню</title>
+        <link rel="stylesheet" href="./assets/fonts/TTLakes/stylesheet.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="mobile-menu mobile-menu_open">
+            <header class="mobile-menu__header">
+                <div class="wrapper wrapper__header-items">
+                    <a href="#" class="mobile-menu__button-image mobile-menu__burger-button">
+                        <img src="./assets/ico/burger.svg" alt="burger open close button">
+                    </a>
+                    <a href="#" class="mobile-menu__button-image mobile-menu__logo">
+                        <img src="./assets/ico/logo.png" alt="logo">
+                    </a>
+                </div>
+               <a href="#" class="mobile-menu__button-image mobile-menu__search-button">
+                 <img src="./assets/ico/search.svg" alt="search button">
+                </a>
+            </header>
+            <ul class="mobile-menu__list">
+                <li id="mobile-menu__item-1" class="mobile-menu__item">
+                    <input type="radio" class="mobile-menu__link" id="mobile-menu__link-1" name="main-links" checked> 
+                    <label for="mobile-menu__link-1">Ремонт техники</label></li>
+                <li id="mobile-menu__item-2" class="mobile-menu__item">
+                    <input type="radio" class="mobile-menu__link" id="mobile-menu__link-2" name="main-links"> 
+                    <label for="mobile-menu__link-2">Услуги и сервисы</label></li>
+                <li id="mobile-menu__item-3" class="mobile-menu__item">
+                    <input type="radio" class="mobile-menu__link" id="mobile-menu__link-3" name="main-links"> 
+                    <label for="mobile-menu__link-3">Корпоративным клиентам</label></li>
+                <li id="mobile-menu__item-4" class="mobile-menu__item">
+                    <input type="radio" class="mobile-menu__link" id="mobile-menu__link-4" name="main-links"> 
+                    <label for="mobile-menu__link-4">Продавцам техники</label></li>
+                <li id="mobile-menu__item-5" class="mobile-menu__item">
+                    <input type="radio" class="mobile-menu__link" id="mobile-menu__link-5" name="main-links"> 
+                    <label for="mobile-menu__link-5">Партнерам</label></li>
+                <li id="mobile-menu__item-6" class="mobile-menu__item">
+                    <input type="radio" class="mobile-menu__link" id="mobile-menu__link-6" name="main-links"> 
+                    <label for="mobile-menu__link-6">Производителям</label></li>
+                <li id="mobile-menu__item-7" class="mobile-menu__item">
+                    <input type="radio" class="mobile-menu__link" id="mobile-menu__link-7" name="main-links"> 
+                    <label for="mobile-menu__link-7">Наши сервисные центры</label></li>
+                <li id="mobile-menu__item-8" class="mobile-menu__item">
+                    <input type="radio" class="mobile-menu__link" id="mobile-menu__link-8" name="main-links"> 
+                    <label for="mobile-menu__link-8">Контакты</label></li>
+            </ul>
+            <footer class="mobile-menu__footer">
+                <div class="wrapper__footer-items wrapper__footer-items_position">
+                    <a class="mobile-menu__button-image mobile-menu__technical-support-button" href="#">
+                        <img src="./assets/ico/chat-technical-support.svg" alt="technical support button on the phone">
+                    </a>
+                    <a class="mobile-menu__button-image mobile-menu__chat-button" href="#">
+                        <img src="./assets/ico/chat.svg" alt="the button that opens the chat">
+                    </a>
+                    <a class="mobile-menu__button-image mobile-menu__profile-button" href="#">
+                        <img src="./assets/ico/profile.svg" alt="profile login button">
+                    </a>
+                </div>
+                <a class="contact-information mail-support" href="mailto:mail@cps.com">mail@cps.com</a>
+                <a class="contact-information tel-support" href="tel:88008908900">8 800 890 8900</a>
+                <div class="language-selection language-selection_position">
+                    <input class="language" id="language-russian" type="radio" name="language" value="RU" checked>
+                    <label for="language-russian">RU</label>
+                    <input class="language" id="language-en" type="radio" name="language" value="EN" >
+                    <label for="language-en">EN</label>
+                    <input class="language" id="language-swiss" type="radio" name="language" value="CH" >
+                    <label for="language-swiss">CH</label>
+                </div>
+            </footer>
+        </nav>
+    </body>
+</html>
